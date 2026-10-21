@@ -1,66 +1,66 @@
-## \# Frozen Meat Quality Inspection (MMA3001 Project)
+# \# Frozen Meat Quality Inspection (MMA3001 Project)
 
+# 
 
+# \## Purpose
 
-##### \## Purpose
+# (One paragraph: what problem this solves. To be written in Step 2.)
 
-(One paragraph: what problem this solves. To be written in Step 2.)
+# 
 
+# \## Repository structure
 
+# \- `src/meatqc/` - source code
 
-##### \## Repository structure
+# \- `tests/` - pytest tests
 
-\- `src/meatqc/` - source code
+# \- `notebooks/` - experiments
 
-\- `tests/` - pytest tests
+# \- `docs/` - generated HTML documentation
 
-\- `notebooks/` - experiments
+# \- `data/raw/` - dataset (not included; see Data section)
 
-\- `docs/` - generated HTML documentation
+# 
 
-\- `data/raw/` - dataset (not included; see Data section)
+# \## Setup
 
+# &#x20;   python -m venv .venv
 
+# &#x20;   .venv\\Scripts\\Activate.ps1
 
-##### \## Setup
+# &#x20;   pip install -r requirements.txt
 
-&#x20;   python -m venv .venv
+# 
 
-&#x20;   .venv\\Scripts\\Activate.ps1
+# \## Data
 
-&#x20;   pip install -r requirements.txt
+# Dataset: \*Pork Rasher Error (Packaging)\* by Hello, Roboflow Universe, 2025.
 
+# https://universe.roboflow.com/hello-2aqe0/pork-rasher-error-packaging
 
+# Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-##### \## Data
+# 
 
-Dataset: \*Pork Rasher Error (Packaging)\* by Hello, Roboflow Universe, 2025.
+# The images are not included in this repository. To reproduce the results,
 
-https://universe.roboflow.com/hello-2aqe0/pork-rasher-error-packaging
+# download Version 4 from the link above (YOLO format) and extract it into `data/raw/`.
 
-Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+# 
 
+# \## Usage
 
+# (To be completed.)
 
-The images are not included in this repository. To reproduce the results,
+# 
 
-download Version 4 from the link above (YOLO format) and extract it into `data/raw/`.
+# \## Testing
 
+# &#x20;   pytest
 
+# 
 
-##### \## Usage
+# \## Licence
 
-(To be completed.)
-
-
-
-##### \## Testing
-
-&#x20;   pytest
-
-
-
-##### \## Licence
-
-MIT
+# MIT
 
