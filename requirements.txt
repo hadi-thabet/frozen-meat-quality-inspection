@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+scikit-image
+jupyter
+pytest
+pdoc
+ultralytics
+pyyaml
